@@ -75,7 +75,7 @@ export default {
     methods: {
 
       async getTask(){
-        var reponse = await fetch('http://127.0.0.1:8000/api/To_do_list/');
+        var reponse = await fetch('https://sheltered-mountain-01576.herokuapp.com/api/To_do_list/');
         
         this.task = await reponse.json();
         
@@ -100,7 +100,7 @@ export default {
 
           this.task.status = 0;
 
-          await fetch('http://127.0.0.1:8000/api/To_do_list/', {
+          await fetch('https://sheltered-mountain-01576.herokuapp.com/api/To_do_list/', {
             method: 'post',
             headers:{
               'Content-Type':'application/json'
@@ -117,7 +117,7 @@ export default {
 
           task.status = 1;
 
-          await fetch(`http://127.0.0.1:8000/api/To_do_list/${task.id}/`, {
+          await fetch(`https://sheltered-mountain-01576.herokuapp.com/api/To_do_list/${task.id}/`, {
             method: 'put',
             headers:{
               'Content-Type':'application/json'
@@ -132,7 +132,7 @@ export default {
       },
       async DeleteTask(task){
 
-        await fetch(`http://127.0.0.1:8000/api/To_do_list/${task.id}/`, {
+        await fetch(`https://sheltered-mountain-01576.herokuapp.com/api/To_do_list/${task.id}/`, {
             method: 'delete',
             headers:{
               'Content-Type':'application/json'
