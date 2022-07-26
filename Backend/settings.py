@@ -85,17 +85,24 @@ WSGI_APPLICATION = 'Backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
-import dj_database_url
-
-db_from_env = dj_database_url.config(conn_max_age=600)
-DATABASES['default'].update(db_from_env)
+"""
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'dcrp8krk4mbgva',
+        'USER':'qqznrezqiphsrd',
+        'PASSWORD':'fcaaeae3eeb06fb3b04b4f021e8265d95595e9eae8dfdbfec159d88dcdc0f8e1',
+        'HOST':'ec2-44-206-197-71.compute-1.amazonaws.com',
+        'PORT':'5432',
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
@@ -132,7 +139,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
