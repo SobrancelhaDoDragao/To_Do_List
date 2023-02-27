@@ -92,15 +92,16 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
 """
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dcrp8krk4mbgva',
-        'USER':'qqznrezqiphsrd',
-        'PASSWORD':'fcaaeae3eeb06fb3b04b4f021e8265d95595e9eae8dfdbfec159d88dcdc0f8e1',
-        'HOST':'ec2-44-206-197-71.compute-1.amazonaws.com',
-        'PORT':'5432',
+        'NAME': 'railway',
+        'USER':'postgres',
+        'PASSWORD':'WuELO3wsb35GECKLBc1X',
+        'HOST':'containers-us-west-78.railway.app',
+        'PORT':'6912',
     }
 }
 
