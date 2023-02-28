@@ -51,7 +51,7 @@
 
         </div>
 
-        <footer>Desenvolvido por Eudson Durães</footer>
+        <footer>Desenvolvido por <a href="https://github.com/SobrancelhaDoDragao">Eudson Durães</a></footer>
    
 
 </template>
@@ -75,7 +75,7 @@ export default {
     methods: {
 
       async getTask(){
-        var reponse = await fetch('https://web-production-8adc.up.railway.app/api/To_do_list/');
+        var reponse = await fetch('https://todolisteudson.up.railway.app/api/To_do_list/');
         
         this.task = await reponse.json();
         
@@ -100,7 +100,7 @@ export default {
 
           this.task.status = 0;
 
-          await fetch('https://web-production-8adc.up.railway.app/api/To_do_list/', {
+          await fetch('https://todolisteudson.up.railway.app/api/To_do_list/', {
             method: 'post',
             headers:{
               'Content-Type':'application/json'
@@ -117,7 +117,7 @@ export default {
 
           task.status = 1;
 
-          await fetch(`https://web-production-8adc.up.railway.app/api/To_do_list/${task.id}/`, {
+          await fetch(`https://todolisteudson.up.railway.app/api/To_do_list/${task.id}/`, {
             method: 'put',
             headers:{
               'Content-Type':'application/json'
@@ -132,7 +132,7 @@ export default {
       },
       async DeleteTask(task){
 
-        await fetch(`https://web-production-8adc.up.railway.app/api/To_do_list/${task.id}/`, {
+        await fetch(`https://todolisteudson.up.railway.app/api/To_do_list/${task.id}/`, {
             method: 'delete',
             headers:{
               'Content-Type':'application/json'
