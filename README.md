@@ -38,4 +38,4 @@
 <img src="https://github.com/SobrancelhaDoDragao/To_Do_List/blob/main/mobile.png">
 
 
-## Licença [MIT](./LICENCE.md) 
+## Licença [MIT](./LICENSE.md) 
