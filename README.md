@@ -22,7 +22,7 @@ Indice
 ...
 ...
 
-<h4>Como rodar na máquina</h4>
+<h4>Como executar o projeto</h4>
 pré-requisitos
 rodando
 
