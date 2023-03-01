@@ -25,11 +25,17 @@
   <li>Css</li>
 </ul> 
 
-<h4>Layout</h4>
+<h3>Layout</h3>
 
 ### Web
+
+
+<img src="https://github.com/SobrancelhaDoDragao/To_Do_List/blob/main/Web.png" width="500">
+
+
 ### Mobile
 
-![alt text](https://github.com/SobrancelhaDoDragao/To_Do_List/blob/main/To_Do_List.png)
+<img src="https://github.com/SobrancelhaDoDragao/To_Do_List/blob/main/mobile.png">
 
 
+## Licença
