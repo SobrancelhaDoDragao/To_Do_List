@@ -26,8 +26,8 @@ Indice
 pré-requisitos
 rodando
 
-<h4>Screeshot</h4>
-
+<h4>Layout</h4>
+Mobile e PC
 ![alt text](https://github.com/SobrancelhaDoDragao/To_Do_List/blob/main/To_Do_List.png)
 
 
