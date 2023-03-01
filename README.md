@@ -2,7 +2,8 @@
 
 <h3 align="center">Um site para gerenciar lista de tarefas concluídas e não concluídas</h3> 
 
-<h4 align="center">Veja o site online <a href="https://todolisteudson.up.railway.app/">aqui</a> </h4>   
+<h4 align="center">Veja o site online <a href="https://todolisteudson.up.railway.app/">aqui</a> </h4>  
+Colocar icones aqui
 
 Indice
 <h4>Tecnologias usadas</h4>   
