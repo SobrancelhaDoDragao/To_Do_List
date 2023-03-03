@@ -17,12 +17,23 @@
 <h4>Tecnologias usadas</h4>   
 
 <ul>
-  <li>Python</li>
-  <li>Djando Rest framework</li>
-  <li>PostgreSQL</li>
-  <li>Vue.js</li>
-  <li>Html</li>
-  <li>Css</li>
+  <li>Back-end</li>
+  
+   <ul>
+      <li>Python</li>
+      <li>Djando Rest framework</li>
+      <li>PostgreSQL</li>
+   </ul>
+   
+  <li>Front-end</li>
+  
+  <ul>
+      <li>Javascript</li>
+      <li>Vue.js</li>
+      <li>Html</li>
+      <li>Css</li>
+  </ul>
+  
 </ul> 
 
 <h3>Layout</h3>
@@ -38,4 +49,6 @@
 <img src="https://github.com/SobrancelhaDoDragao/To_Do_List/blob/main/mobile.png">
 
 
-## Licença [MIT](./LICENSE.md) 
+## License
+
+The scripts in this project are released under the [MIT License](./LICENSE.md) 
