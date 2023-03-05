@@ -21,6 +21,8 @@
 
             <div id="tarefas">
         
+              <TransitionGroup name="list">
+ 
 
                 <div class="tarefa" v-for="task in tasks" :key="task.id">
                     
@@ -32,7 +34,8 @@
                     
                     <span class="excluir" v-on:click.prevent="DeleteTask(task)" >X</span>
                 </div>
-              
+
+              </TransitionGroup>
             </div>
 
         </div>
@@ -40,12 +43,16 @@
         <div id="done">
            <h2>Done</h2>
 
-           <div class="tarefaDone"  v-for="task in taskDone" :key="task.id">
+          <TransitionGroup name="list">
 
-              <span class="TarefaTexto TarefaTextoDone">{{task.name}}</span>
+            <div class="tarefaDone"  v-for="task in taskDone" :key="task.id">
 
-              <span class="excluir" v-on:click.prevent="DeleteTask(task)" >X</span>
-            </div>
+                <span class="TarefaTexto TarefaTextoDone">{{task.name}}</span>
+
+                <span class="excluir" v-on:click.prevent="DeleteTask(task)" >X</span>
+              </div>
+
+          </TransitionGroup>
 
         </div>
 
