@@ -1,6 +1,6 @@
 <h1 align="center">To Do List</h1>
 
-<h3 align="center">Site de Gerenciamento de Tarefas Concluídas e Não Concluídas com Vue.js e Django REST Framework</h3> 
+<h3 align="center">Site de Gerenciamento de Tarefas Concluídas e Não Concluídas</h3> 
 <div align="center">
 
 ![My Skills](https://skills.thijs.gg/icons?i=python,django,vue,html,js,css)
