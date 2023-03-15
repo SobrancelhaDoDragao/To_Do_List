@@ -56,10 +56,10 @@ Mesmo o front-end e o back-end funcionando de forma independente, eles estão no
 <img src="https://github.com/SobrancelhaDoDragao/To_Do_List/blob/main/Web.png" width="500">
 
 ### Mobile
-
+#instalar-o-projeto-localmente
 <img src="https://github.com/SobrancelhaDoDragao/To_Do_List/blob/main/mobile.png">
 
-## Instalar o projeto localmente#license
+## Instalar o projeto localmente
 
 ### Pré-requisitos
 
