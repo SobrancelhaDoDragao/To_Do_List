@@ -69,7 +69,7 @@ Mesmo o front-end e o back-end funcionando de forma independente, eles estão no
 ### Execute os seguintes comandos
 
 1. Baixe o repositório no seu computador
-2. Agora abra a pasta Django pelo terminal
+2. Agora abra a pasta 'Django' pelo terminal
 3. Digite: <code>python -m venv env</code>, para criar um ambiente virtual para instalar as bibliotecas
 4. Ative o ambiente virtual: <code>source env/bin/activate</code>
 5. Agora digite: <code>pip install -r requirements.txt</code>, para instalar as bibliotecas
