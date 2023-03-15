@@ -53,7 +53,7 @@ Mesmo o front-end e o back-end funcionando de forma independente, eles estão no
 
 ### Web
 
-<img src="https://github.com/SobrancelhaDoDragao/To_Do_List/blob/main/Web.png" width="500">
+<img src="https://github.com/SobrancelhaDoDragao/To_Do_List/blob/main/Web.png">
 
 ### Mobile
 
