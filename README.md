@@ -6,7 +6,20 @@
 ![My Skills](https://skills.thijs.gg/icons?i=python,django,vue,html,js,css)
 
 </div>
-<h4 align="center">Veja o site online <a href="https://todolisteudson.up.railway.app/">aqui</a> </h4>  
+
+<div align="center">
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://todolisteudson.up.railway.app/)
+
+</div>
+
+## Tópicos
+
+1. [Sobre o projeto](#sobre-o-projeto)
+2. [Tecnologias usadas](#tecnologias-usadas)
+3. [Layout](#layout)
+4. [Instalar o projeto localmente](#instalar-o-projeto-localmente)
+5. [Licença](#license)
 
 ## Sobre o projeto
 
@@ -46,6 +59,24 @@ Mesmo o front-end e o back-end funcionando de forma independente, eles estão no
 
 <img src="https://github.com/SobrancelhaDoDragao/To_Do_List/blob/main/mobile.png">
 
+## Instalar o projeto localmente
+
+### Pré-requisitos
+
+- [Python 3.8.10](https://www.python.org/downloads/)
+- [Venv](https://docs.python.org/pt-br/3/library/venv.html)
+
+### Execute os seguintes comandos
+
+1. Baixe o repositório no seu computador
+2. Agora abra a pasta 'Django' pelo terminal
+3. Digite: <code>python -m venv env</code>, para criar um ambiente virtual para instalar as bibliotecas
+4. Ative o ambiente virtual: <code>source env/bin/activate</code>
+5. Agora digite: <code>pip install -r requirements.txt</code>, para instalar as bibliotecas
+6. E finalmente rode o projeto:<code>python manage.py runserver</code>
+
+### Configurando Banco de dados
+xeḱde
 
 ## License
 
